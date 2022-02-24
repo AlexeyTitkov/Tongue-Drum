@@ -73,39 +73,8 @@ button {
   font-size: 52px;
   transition: all 0.4s ease-in;
 }
-.button:before {
-  content: "";
-  background-color: aliceblue;
-  border-radius: 50%;
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform: scale(0.001, 0.001);
-}
-
-.button:focus:before {
-  animation: effect_dylan 0.9s ease-out;
-}
-
-@keyframes effect_dylan {
-  50% {
-    transform: scale(2.5, 2.5);
-    opacity: 0;
-  }
-  99% {
-    transform: scale(0.001, 0.001);
-    opacity: 0;
-  }
-  100% {
-    transform: scale(0.001, 0.001);
-    opacity: 1;
-  }
-}
 
 .transform {
   transform: scale(1.5);
-  text-shadow: #495245 0px 2px 2px;
+  text-shadow: #596456 0px 2px 2px;
 }
